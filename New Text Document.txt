@@ -1,0 +1,87 @@
+https://www.softwaretestingclass.com/wp-content/uploads/2016/06/Beginner-Guide-To-Software-Testing.pdf
+
+https://www.testim.io/blog/software-testing-basics/
+
+https://www.geeksforgeeks.org/what-is-javadoc-tool-and-how-to-use-it/
+
+
+
+
+
+
+
+javac -cp ".;junit-4.12.jar" PrintTest.java
+java -cp ".;hamcrest-core-1.3.jar;junit-4.12.jar" org.junit.runner.JUnitCore PrintTest
+
+
+Class
+    arithmetic operations
+         - add
+        - Subtract
+        - multiply
+        - divide    
+        - power
+
+ 
+
+    Stack
+        - pop
+        - push
+        - size
+        - isempty    
+        - peek
+    Time
+        - mintues to hours
+        - hours to day
+        - seconds to munites    
+        - days to minutes
+        - seconds to days
+
+    unit convertor
+        - km - m
+        - m - km
+        - mile to km
+        - cm - m
+        - nm - cm
+
+ 
+
+    mass convertor
+        - kg to g
+        - g to kg
+        - Inch to cm
+        - yard to mile
+        - bmi
+
+
+
+
+
+public static double Divide(double num, double denom) {
+        if(denom==0){
+            throw new IllegalArgumentException("Cannot divide by zero");
+        }
+        double total4 = num / denom;
+        return total4;
+    }
+
+        public static double Power(double base, double exponent) {
+            return Math.pow(base, exponent);
+        }
+    }
+
+
+
+
+
+@Test
+    public void test17() {
+        var obj1=new SkinCare();
+        assertEquals(5.0, obj1.Divide(10.0,2.0));
+    }
+
+    @Test
+    public void test18(){
+        var obj1 = new SkinCare();
+        assertEquals(4, obj1.Power(2, 2));
+    }
