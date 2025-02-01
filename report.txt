@@ -1,0 +1,48 @@
+Report
+
+https://hnduynguyen.atlassian.net/wiki/spaces/CO/pages/5636099/My+Sale+Website+report
+
+
+jira login
+https://hnduynguyen.atlassian.net/jira/software/projects/COD/boards/1/roadmap
+
+
+
+TABLE 1. API test cases
+
+
+Postman API
+Mocha - Chai
+Front-end Testing Tools and Codes
+Jest
+
+Report and what does this do
+
+CI/CD Pipeline Related
+Automated Test
+
+Test Cases and Results
+API Test Cases and Results:
+
+
+
+
+
+
+
+
+
+
+
+
+https://forms.office.com/e/2mkTMiDX2c
+
+https://tamk.jobteaser.com/en/v2/appointments
+
+
+
+Introduction
+
+Project and API Testing tools
+
+The project that is tested and reported in this document called: Jersey Boy Bagels Bakery. In the first testing phase (31.01.2023 - 28.02.2023), we performed some basic test like cloned project from GitLab repository and run on different machine. During this phase, we also conducted API testing using Postman API platform and Mocha - Chai based on the test folder and test file that had been created by the project creator:
